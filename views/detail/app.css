@@ -1,0 +1,37 @@
+*{
+    font-family: 'Quicksand', sans-serif !important;
+    box-sizing: border-box;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    margin: 0
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(0, 196, 49);
+}
+.name{
+    display: flex;
+    margin: auto 0;
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    margin: auto 0;
+    
+}
+.icon{
+    height: 30px;
+}
+
